@@ -4,7 +4,7 @@ import { ref } from 'vue'
 // Add code here
 const loginOption = ref("username");
 </script>
-
+//
 <template>
   <h1>Please select your login option</h1>
   <!-- Add/modify code in the following to have a dropdown list 
