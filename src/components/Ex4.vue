@@ -48,7 +48,7 @@ function changeTextColor() {
   <div id="part2">
     <div v-bind:style="{color:activeColor}">div ID : {{ id }}</div>
 
-    <button type="button" v-on:click="changeTextColor">Change Text Color</button>
+    <button type="button" v-bind:class="{'btn':true,'btn-primary':!redBtn,'btn-danger':redBtn}" v-on:click="changeTextColor">Change Text Color</button>
   </div>
 </template>
 
