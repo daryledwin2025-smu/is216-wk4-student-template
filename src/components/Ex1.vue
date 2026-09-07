@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-const message = ref("Choose fav");
-const fruits = ref(["apple","orange"])
+const message = ref("Choose your favourite fruit:");
+const fruits = ref(["apple","orange","banana"])
 // Add code here
 // challenge: use array
 </script>
